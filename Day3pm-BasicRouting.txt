@@ -267,7 +267,7 @@ router ospf 1
 router-id 2.2.2.2
 network 2.2.2.2 0.0.0.0 area 0
 network 10.1.1.4 0.0.0.3 area 0
-network 10.1.1.0 0.0.0.3 area 0
+network 10.1.1.0 0.0.0.3 area 12
 interface e1/2
    ip ospf priority 255
   !! eto mismo ang Lab mo:
